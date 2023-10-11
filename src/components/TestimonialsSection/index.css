@@ -1,0 +1,114 @@
+.testimonial-background {
+  background-color: #8e3ccb;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 300px;
+}
+.testimonial-card-container {
+  position: relative;
+}
+.testimonial-blank-card {
+  background-color: #2a34a1;
+  height: 500px;
+  width: 300px;
+  border-radius: 20px;
+}
+
+.testimonial-content-card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 330px;
+  width: 450px;
+  position: absolute;
+  top: 85px;
+  border-radius: 25px;
+  right: 120px;
+}
+.cardimage {
+  height: 40px;
+  margin-top: 15px;
+}
+.testimonial-description {
+  font-size: 10px;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+  width: 275px;
+  margin: 0px;
+}
+.testimonial-name {
+  font-size: 22px;
+  font-weight: 500;
+  padding: 0px;
+}
+.testimonial-detail {
+  color: #d93b5b;
+  font-weight: 500;
+  padding: 0px;
+}
+.testimonial-right {
+  display: flex;
+  flex-direction: column;
+  min-width: 60%;
+  margin-left: 90px;
+}
+.testimonial-title {
+  color: #fcba17;
+  font-size: 63px;
+  margin: 0px;
+  text-align: left;
+  margin-left: 100px;
+}
+.about-line {
+  height: 5px;
+  width: 100%;
+  background-color: #ef3a37;
+  border: none;
+  margin: 0px;
+}
+.about-circle {
+  border-radius: 50%;
+  height: 12px;
+  width: 12px;
+  background-color: #ef3a35;
+}
+.line-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px;
+}
+.testimonial-expression {
+  color: white;
+  font-size: 35px;
+  font-weight: 600;
+  font-style: italic;
+  width: 200px;
+  text-align: right;
+  margin-left: 90px;
+}
+.arrow {
+  background-color: #e820ca;
+  color: white;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.arrow-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 150px;
+  margin-top: 20px;
+  width: 100px;
+}

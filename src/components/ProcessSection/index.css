@@ -1,0 +1,77 @@
+.process-background {
+  background-color: #d93b5b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 35px;
+}
+.process-title {
+  color: white;
+  font-weight: 400;
+  margin-top: 0px;
+}
+.about-line {
+  height: 5px;
+  width: 550px;
+  background-color: #fcba17;
+  border: none;
+  margin: 0px;
+}
+.about-circle {
+  border-radius: 50%;
+  height: 12px;
+  width: 12px;
+  background-color: #fcba17;
+}
+.line-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px;
+  padding-left: 70px;
+}
+.process-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex: wrap;
+  margin-top: 25px;
+}
+.process-card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 300px;
+  margin-top: 15px;
+}
+.workprocess-content-heading {
+  color: white;
+  font-size: 20px;
+}
+.card-circle {
+  background: #ffbe9d;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 0.6;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  left: -2.5rem;
+  top: -1.5rem;
+}
+.process-card-description {
+  color: white;
+  margin-top: 0px;
+}
+.opacity-background-process {
+  color: hsla(0, 0%, 100%, 0.07);
+  font-size: 200px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 250px;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  text-shadow: 0 4px 4px #e8277b;
+  width: 90%;
+  text-align: right;
+}

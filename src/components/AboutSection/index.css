@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Autour+One&display=swap");
+
+.about-background {
+  background-color: #3853a4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.aboutcontent-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 950px;
+}
+.about-leftcontent {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 450px;
+  height: 200px;
+}
+.about-title-left {
+  color: #fff;
+  font-family: "Autour One", cursive;
+  font-size: 36px;
+  font-weight: 400;
+  position: relative;
+  margin: 0px;
+  text-align: right;
+}
+.about-line {
+  height: 5px;
+  width: 250px;
+  background-color: #ef3a37;
+  border: none;
+  margin: 0px;
+}
+.about-circle {
+  border-radius: 50%;
+  height: 12px;
+  width: 12px;
+  background-color: #ef3a35;
+}
+.line-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px;
+}
+.about-expression {
+  color: #fcba17;
+  text-align: right;
+  font-size: 20px;
+}
+.about-leftpara {
+  color: white;
+  text-align: right;
+  width: 400px;
+  font-size: 12px;
+}
+.about-rightcontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+  width: 450px;
+  height: 200px;
+}
+.span-element {
+  color: #fcba17;
+  font-weight: bold;
+}
+.about-rightpara {
+  color: white;
+  text-align: left;
+  width: 400px;
+  font-size: 14px;
+  margin-top: 0px;
+}
+.about-title-right {
+  color: #fff;
+  font-family: "Autour One", cursive;
+  font-size: 36px;
+  font-weight: 400;
+  position: relative;
+  margin: 0px;
+  text-align: left;
+}
+.opacity-background {
+  color: hsla(0, 0%, 100%, 0.07);
+  font-size: 200px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 300px;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  text-shadow: 0 4px 4px #5e78cc;
+  width: 80%;
+}
